@@ -1,7 +1,8 @@
 from .add import add, add_
 from .copy_ import copy_
-from .lt import lt_scalar
 from .div import div_mode, div_mode_
+from .ge import ge, ge_scalar
+from .lt import lt_scalar
 from .exponential_ import exponential_
 from .full import full
 from .mul import mul
@@ -13,11 +14,13 @@ __all__ = [
     "add",
     "add_",
     "copy_",
-    "lt_scalar",
     "div_mode",
     "div_mode_",
     "exponential_",
     "full",
+    "ge",
+    "ge_scalar",
+    "lt_scalar",
     "mul",
     "pow_scalar",
     "pow_scalar_",
